@@ -1,8 +1,8 @@
 :root {
-    --background: blue;
-    --color: white;
-    --background2: black;
-    --background3: gray;
+    --background: rgb(10, 14, 243);
+    --color: rgb(255, 255, 255);
+    --background2: rgb(0, 0, 0);
+    --background3: rgb(65, 66, 68);
   }
 
 
