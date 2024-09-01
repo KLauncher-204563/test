@@ -10,3 +10,18 @@
     --line-color:#ECECEC;
     --borter-color:#EEEEEE;
 }
+:root {
+    --background: rgb(10, 14, 243);
+    --color: rgb(255, 255, 255);
+    --background2: rgb(0, 0, 0);
+    --background3: rgb(190, 192, 196);
+  }
+
+
+
+
+
+
+[type="button"]:hover{
+    color: var(--title-color);
+    background-color:var(--akcen-tcolor) ;}
