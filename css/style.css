@@ -24,21 +24,156 @@
     color: var(--title-color);
     background-color:var(--akcen-tcolor) ;}
 
-    #Roboto{
+    body {
+      font-family: "Roboto";
+     };
+    
+     
+    .Roboto{
       font-family: "Roboto";
       font-size: 16px;
     }
-    #Robotoq{
+    .Robotoq{
       font-family: "Roboto";
       font-size: 14px;
     }
-    #Raleway{
+    .Raleway{
       font-family: "Raleway";
       font-size: 26px;
     }
-#h1{
-  font-size: 44px;
+.hwon{
+  color: #FFF;
+text-align: center;
+font-family: "Roboto";
+font-size: 44px;
+font-style: 1.5;
+font-weight: 900;
+line-height: 136.364%;
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
-#h36{
+.hqw{
+  color: #FFF;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: 1.9;
+font-weight: 700;
+line-height: 187.5%; 
+letter-spacing: 0.96px;
+}
+.webstudio{
+color: #000;
+font-family: "Raleway";
+font-size: 26px;
+font-style: 1.3;
+font-weight: 700;
+letter-spacing: 0.78px;
+}
+.web{
+  color: #2196F3;
+font-family: "Raleway";
+font-size: 26px;
+font-style: 1.3;
+font-weight: 700;
+letter-spacing: 0.78px;
+}
+.nav{
+  color: #212121;
+font-family: "Roboto";
+font-size: 14px;
+font-style: 1.1;
+font-weight: 500;
+letter-spacing: 0.28px;
+}
+#add{
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: 1.1;
+font-weight: 500;
+letter-spacing: 0.28px;
+}
+.efext{
+  color: #212121;
+font-family: "Roboto";
+font-size: 14px;
+font-style: 1.1;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.pefe{
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: 1.7;
+font-weight: 400;
+line-height: 171.429%;
+letter-spacing: 0.42px;
+}
+.chum{
+  color: #212121;
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: 1.1;
+font-weight: 700;
+letter-spacing: 1.08px;
+}
+
+.hqww{
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto";
   font-size: 36px;
+  font-style: 1.1;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.name{
+  color: #212121;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: 1.1;
+font-weight: 500;
+letter-spacing: 0.48px;
+}
+.op{
+  color: #757575;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: 1.1;
+font-weight: 400;
+letter-spacing: 0.48px;
+}
+.mi{
+  color: #FFF;
+font-family: "Roboto";
+font-size: 14px;
+font-style: 1.7;
+font-weight: 400;
+line-height: 171.429%; 
+letter-spacing: 0.42px;
+}
+.addr{
+  color: rgba(255, 255, 255, 0.60);
+font-family: "Roboto";
+font-size: 14px;
+font-style: 1.7;
+font-weight: 400;
+line-height: 171.429%; 
+letter-spacing: 0.42px;
+}
+.rty{
+  color: #212121;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: 1.6;
+font-weight: 500;
+line-height: 162.5%; 
+letter-spacing: 0.48px;
 }
