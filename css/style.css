@@ -29,15 +29,15 @@
      };
     
      
-    .Roboto{
+    .roboto{
       font-family: "Roboto";
       font-size: 16px;
     }
-    .Robotoq{
+    .robotoq{
       font-family: "Roboto";
       font-size: 14px;
     }
-    .Raleway{
+    .raleway{
       font-family: "Raleway";
       font-size: 26px;
     }
@@ -176,4 +176,7 @@ font-style: 1.6;
 font-weight: 500;
 line-height: 162.5%; 
 letter-spacing: 0.48px;
+display: inline;
+list-style: none;
 }
+
