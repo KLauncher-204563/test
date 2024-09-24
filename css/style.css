@@ -20,7 +20,7 @@
     --background2: rgb(0, 0, 0);
     --background3: rgb(190, 192, 196);
   }
-[type="button"]:hover{
+[type="a"]:hover{
     color: var(--title-color);
     background-color:var(--akcen-tcolor) ;}
 
@@ -41,7 +41,7 @@
       font-family: "Raleway";
       font-size: 26px;
     }
-.Effective-caption{
+.effective-caption{
   color: #FFF;
 text-align: center;
 font-family: "Roboto";
@@ -53,6 +53,9 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 .button{
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #FFF;
 text-align: center;
 font-family: "Roboto";
@@ -86,6 +89,7 @@ font-style: 1.1;
 font-weight: 500;
 letter-spacing: 0.28px;
 }
+
 .contact-list{
   color: #757575;
 font-family: "Roboto";
@@ -180,7 +184,7 @@ display: inline;
 list-style: none;
 }
 
-.Effective{
+.effective{
   background-color: #2F303A;
 }
 a{
@@ -218,4 +222,60 @@ font-style: 1.7;
 font-weight: 400;
 line-height: 171.429%; 
 letter-spacing: 0.42px;
+}
+.{color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;}
+.contact-link{
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.addr-link{
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.footer{
+  background: #2F303A;
+}
+
+.contact-link{color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;}
+.addr-link{color: #757575;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;}
+
+.nav-link{
+  color: #212121;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.command{
+  background: #F5F4FA;
 }
