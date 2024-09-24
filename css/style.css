@@ -21,8 +21,8 @@
     --background3: rgb(190, 192, 196);
   }
 [type="a"]:hover{
-    color: var(--title-color);
-    background-color:var(--akcen-tcolor) ;}
+    background-color: var(--title-color);
+     color:var(--akcen-tcolor) ;}
 
     body {
       font-family: "Roboto";
