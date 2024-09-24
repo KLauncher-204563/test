@@ -20,27 +20,11 @@
     --background2: rgb(0, 0, 0);
     --background3: rgb(190, 192, 196);
   }
-[type="a"]:hover{
-    background-color: var(--title-color);
-     color:var(--akcen-tcolor) ;}
 
     body {
       font-family: "Roboto";
      };
     
-     
-    .roboto{
-      font-family: "Roboto";
-      font-size: 16px;
-    }
-    .robotoq{
-      font-family: "Roboto";
-      font-size: 14px;
-    }
-    .raleway{
-      font-family: "Raleway";
-      font-size: 26px;
-    }
 .effective-caption{
   color: #FFF;
 text-align: center;
@@ -81,14 +65,7 @@ font-style: 1.3;
 font-weight: 700;
 letter-spacing: 0.78px;
 }
-.nav-list{
-  color: #212121;
-font-family: "Roboto";
-font-size: 14px;
-font-style: 1.1;
-font-weight: 500;
-letter-spacing: 0.28px;
-}
+
 
 .contact-list{
   color: #757575;
@@ -272,3 +249,7 @@ letter-spacing: 0.28px;
 .command{
   background: #F5F4FA;
 }
+[type="a"]:hover{
+  background-color: var(--title-color);
+   color:var(--akcen-tcolor) ;}
+   
