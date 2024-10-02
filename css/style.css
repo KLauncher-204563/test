@@ -24,6 +24,13 @@
     body {
       font-family: "Roboto";
      };
+
+.container{
+outline: 10px solid red;
+  width: 900px;
+  margin-left: auto;
+}
+
     
 .effective-caption{
   color: var(--title-color);
@@ -107,27 +114,7 @@ font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px;
 }
-.nazwa{
-  color: var(--et-textcolor);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-letter-spacing: 0.48px;
-}
-.mi{
-  color: var(--title-color);
-font-size: 14px;
-font-weight: 400;
-line-height: 171.429%; 
-letter-spacing: 0.42px;
-}
-.addr{
-  color: var(--color);
-font-size: 14px;
-font-weight: 400;
-line-height: 171.429%; 
-letter-spacing: 0.42px;
-}
+
 .spusok{
   color:var(--main-text);
 text-align: center;
@@ -220,3 +207,16 @@ font-weight: 900;
 line-height: 60px; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;}
+.container{
+  width: 960;
+}
+
+.container{
+  /* outline: 1px solid red; */
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 215px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
