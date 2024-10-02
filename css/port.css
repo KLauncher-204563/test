@@ -114,6 +114,8 @@ body {
       font-style: 1.3;
       font-weight: 700;
       letter-spacing: 0.78px;
+      padding-top: 24px;
+padding-bottom: 25px;
       }
       .web{
         color: var(--akcen-tcolor);
@@ -153,11 +155,30 @@ body {
         letter-spacing: 0.28px;}
         .container{
           /* outline: 1px solid red; */
-            width: 900px;
+            width: 1170px;
             margin-left: auto;
             margin-right: auto;
-            padding-left: 215px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-top: 15px;
           }
-        
+          .webstudio-foter{
+            color: var(--title-color);
+            font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+padding-top: 60px;
+padding-bottom: 161px;
+          }
+          .nav{
+            padding-top: 32px;
+            padding-bottom: 32px;
+          }
+          .contact-list{
+            padding-top: 32px;
+            padding-bottom: 32px;
+          }
+          .offers-ul{
+          padding-top: 15px;
+          padding-bottom: 15px;
+          }
