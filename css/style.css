@@ -59,8 +59,7 @@ font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
-padding-top: 24px;
-padding-bottom: 25px;
+
 }
 .web{
   color: var(--akcen-tcolor);
@@ -82,8 +81,7 @@ font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-padding-top: 94px;
-padding-bottom: 176px;
+
 }
 .ability-subtitle{
   color:var(--et-textcolor);
@@ -92,8 +90,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 171.429%;
 letter-spacing: 0.42px;
-padding-top: 10px;
-padding-bottom: 118px;
+
 }
 .engaged-title{
   line-height: 42px;
@@ -102,8 +99,7 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
-padding-top: 286px;
-padding-bottom: 50px;
+
 }
 
 .command-subject{
@@ -114,7 +110,7 @@ padding-bottom: 50px;
   font-weight: 700;
   letter-spacing: 1.08px;
   padding-bottom: 50px;
-  padding-top: 94px;
+  
 }
 .command-name{
   color: var(--main-text);
@@ -123,8 +119,7 @@ line-height: 19px;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px;
-padding-top: 30px;
-padding-bottom: 10px;
+
 }
 
 .spusok{
@@ -162,8 +157,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
-padding-top: 10px;
-padding-bottom: 124px;
+
 }
 .address-wylica{
   color: rgba(255, 255, 255, 0.60);
@@ -225,39 +219,44 @@ text-transform: uppercase;}
 
 .container{
   /* outline: 1px solid red; */
-    width: 1190px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-top: 15px;
 
   }
-  .nav{
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  .contact-list{
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  .effective{
-    padding-top: 200px;
-    padding-bottom: 280px;
-  }
-  .engaged-img{
-    padding-top: 50px;
-    padding-bottom: 94px;
-  }
-  .command-item{
-    padding-bottom: 30px;
-    padding-top: 50px;
-  }
+
+  
   .webstudio-foter{
     color: var(--title-color);
     font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
-padding-top: 24px;
-padding-bottom: 25px;
+
   }
+#header{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.effective{
+  padding-top: 200px;
+  padding-bottom: 205px;
+}
+.ability{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.engaged{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.command{
+  padding-top: 188px;
+  padding-bottom: 94px;
+}
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
