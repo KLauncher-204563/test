@@ -182,3 +182,15 @@ padding-bottom: 161px;
           padding-top: 15px;
           padding-bottom: 15px;
           }
+          .footer{
+            padding-top: 60px;
+            padding-bottom: 60px;
+          }
+          #header{
+            padding-top: 24px;
+            padding-bottom: 25px;
+          }
+          .offers{
+            padding-top: 94px;
+            padding-bottom: 94;
+          }
