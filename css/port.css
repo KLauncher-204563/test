@@ -168,7 +168,7 @@ font-weight: 700;
 letter-spacing: 0.78px;
 
           }
-          .spusok{
+          .item-spusok{
             color:var(--main-text);
           text-align: center;
           font-size: 16px;
@@ -185,11 +185,12 @@ letter-spacing: 0.78px;
             padding-top: 60px;
             padding-bottom: 60px;
           }
-          #header{
-            padding-top: 24px;
-            padding-bottom: 25px;
-          }
+
           .offers{
             padding-top: 94px;
             padding-bottom: 94px;
+          }
+           .header-port{
+            padding-top: 24px;
+            padding-bottom: 25px;
           }
