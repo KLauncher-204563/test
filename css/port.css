@@ -114,8 +114,7 @@ body {
       font-style: 1.3;
       font-weight: 700;
       letter-spacing: 0.78px;
-      padding-top: 24px;
-padding-bottom: 25px;
+
       }
       .web{
         color: var(--akcen-tcolor);
@@ -159,7 +158,7 @@ padding-bottom: 25px;
             margin-left: auto;
             margin-right: auto;
             padding-left: 15px;
-            padding-top: 15px;
+            padding-right: 15px;
           }
           .webstudio-foter{
             color: var(--title-color);
@@ -167,21 +166,21 @@ padding-bottom: 25px;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
-padding-top: 60px;
-padding-bottom: 161px;
+
           }
-          .nav{
-            padding-top: 32px;
-            padding-bottom: 32px;
+          .spusok{
+            color:var(--main-text);
+          text-align: center;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 162.5%; 
+          letter-spacing: 0.48px;
+          display: inline;
+          list-style: none;
           }
-          .contact-list{
-            padding-top: 32px;
-            padding-bottom: 32px;
-          }
-          .offers-ul{
-          padding-top: 15px;
-          padding-bottom: 15px;
-          }
+
+  
+          
           .footer{
             padding-top: 60px;
             padding-bottom: 60px;
@@ -192,5 +191,5 @@ padding-bottom: 161px;
           }
           .offers{
             padding-top: 94px;
-            padding-bottom: 94;
+            padding-bottom: 94px;
           }
