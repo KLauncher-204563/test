@@ -48,9 +48,7 @@ margin-bottom: 30px;
 text-transform: uppercase;
 }
 .button{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 32px;
 margin-left: auto;
 margin-right: auto;
   border-radius: 4px;
@@ -63,9 +61,7 @@ font-size: 16px;
 font-weight: 700;
 line-height: 187.5%; 
 letter-spacing: 0.96px;  ;
-width: 216px;
-height: 50px;
-flex-shrink: 0;
+
 
 }
 .webstudio{
@@ -127,7 +123,7 @@ padding-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   
 }
 .command-name{
@@ -137,7 +133,7 @@ line-height: 19px;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px;
-padding-top: 30px;
+margin-top: 30px;
 }
 
 
@@ -160,7 +156,7 @@ font-weight: 500;
 letter-spacing: 0.48px;
 }
 .command-profession{
-  padding-top: 10px;
+  margin-top: 10px;
   line-height: 19px;
   color: var(--et-textcolor);
 text-align: center;
@@ -170,13 +166,6 @@ line-height: normal;
 letter-spacing: 0.48px;
 
 }
-.address-wylica{
-  color: rgba(255, 255, 255, 0.60);
-font-size: 14px;
-font-weight: 400;
-line-height: 171.429%; 
-letter-spacing: 0.42px;
-}
 .contact-link{
   color: var(--et-textcolor);
 font-size: 14px;
@@ -184,15 +173,9 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-.addr-link{
-  color: var(--et-textcolor);
-font-size: 14px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-}
+
 .footer{
-  background: #2F303A;
+  background:var( --footer-background);
 }
 
 .contact-link{color: var(--et-textcolor);
@@ -200,11 +183,6 @@ font-size: 14px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;}
-.addr-link{color: var(--et-textcolor);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;}
 
 .nav-link{
   color: var(--main-text);
@@ -243,7 +221,7 @@ letter-spacing: 0.28px;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
-
+margin-bottom: 20px;
   }
 #header{
   padding-top: 24px;
@@ -274,12 +252,42 @@ letter-spacing: 0.78px;
 }
  .engaged-ul{
   display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 30px;
 }
 .command-items{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  gap: 30px;
 }
 .ability-items{
+  gap: 30px;
   display: flex;
+}
+.bacraud-robotnik{
+  background-color: var(--color);
+}
+.address-wylica{
+  color: rgba(255, 255, 255, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 171.429%; 
+letter-spacing: 0.42px;
+}
+
+.addr-nomer{
+  color: var(--et-textcolor);
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.addr-emeil{
+  color: var(--et-textcolor);
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+margin-bottom: 9px;
+margin-top: 9px;
 }
