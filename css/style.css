@@ -270,6 +270,7 @@ margin-bottom: 20px;
 }
 .address-wylica{
   display: flex;
+  flex-direction: column;
   color: rgba(255, 255, 255, 0.60);
 font-size: 14px;
 font-weight: 400;
@@ -279,6 +280,7 @@ letter-spacing: 0.42px;
 
 .addr-nomer{
   display: flex;
+  flex-direction: column;
   color: var(--et-textcolor);
 font-size: 14px;
 font-weight: 500;
@@ -287,6 +289,7 @@ letter-spacing: 0.28px;
 }
 .addr-emeil{
   display: flex;
+  flex-direction: column;
   color: var(--et-textcolor);
 font-size: 14px;
 font-weight: 500;
