@@ -297,5 +297,6 @@ margin-top: 9px;
 }
 .addr-ul{
   display: flex;
+  flex-direction: column;
 }
 
