@@ -295,5 +295,7 @@ letter-spacing: 0.28px;
 margin-bottom: 9px;
 margin-top: 9px;
 }
-
+.addr-ul{
+  display: flex;
+}
 
