@@ -216,6 +216,7 @@ letter-spacing: 0.28px;
 
 
   .webstudio-foter{
+    display: flex;
     color: var(--title-color);
     font-family: "Raleway";
 font-size: 26px;
@@ -268,6 +269,7 @@ margin-bottom: 20px;
   background-color: var(--color);
 }
 .address-wylica{
+  display: flex;
   color: rgba(255, 255, 255, 0.60);
 font-size: 14px;
 font-weight: 400;
@@ -276,6 +278,7 @@ letter-spacing: 0.42px;
 }
 
 .addr-nomer{
+  display: flex;
   color: var(--et-textcolor);
 font-size: 14px;
 font-weight: 500;
@@ -283,6 +286,7 @@ line-height: normal;
 letter-spacing: 0.28px;
 }
 .addr-emeil{
+  display: flex;
   color: var(--et-textcolor);
 font-size: 14px;
 font-weight: 500;
