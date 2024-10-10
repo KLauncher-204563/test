@@ -188,16 +188,16 @@ letter-spacing: 0.78px;
           
           .footer{
             padding-top: 60px;
-            padding-bottom: 60px;
+            margin-bottom: 60px;
           }
 
           .offers{
-            padding-top: 94px;
-            padding-bottom: 94px;
+            margin-top: 94px;
+            margin-bottom: 94px;
           }
            .header-port{
-            padding-top: 24px;
-            padding-bottom: 25px;
+            margin-top: 24px;
+            margin-bottom: 25px;
           }
           .nav-list{
             display: flex;
@@ -210,16 +210,17 @@ letter-spacing: 0.78px;
 button{
   border: none;
   border-radius: 4px;
-  width: 112px;
-  height: 38px;
+padding: 6px 22px;
+
   flex-shrink: 0;
   margin-right: auto;
   margin-left: auto;
 }
 .offers-ul{
   display: flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
    flex-wrap: wrap;
+   gap: 31px;
 }
 .offers-title{
   padding-bottom: 4px;
@@ -227,4 +228,48 @@ button{
 }
 .offers-subtitle{
   padding-bottom: 45px;
+}
+
+.address-wylica{
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.60);
+font-size: 14px;
+font-weight: 400;
+line-height: 171.429%; 
+letter-spacing: 0.42px;
+}
+
+.addr-nomer{
+  display: flex;
+  flex-direction: column;
+  color: var(--et-textcolor);
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.addr-emeil{
+  display: flex;
+  flex-direction: column;
+  color: var(--et-textcolor);
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+margin-bottom: 9px;
+margin-top: 9px;
+}
+.addr{
+  display: flex;
+  flex-direction: column;
+}
+.webstudio-foter{
+  display: flex;
+  color: var(--title-color);
+  font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.78px;
+margin-bottom: 20px;
 }
