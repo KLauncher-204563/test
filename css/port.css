@@ -195,12 +195,12 @@ letter-spacing: 0.78px;
           }
 
           .offers{
-            margin-top: 94px;
-            margin-bottom: 94px;
+            padding-top: 94px;
+            padding-bottom: 94px;
           }
            .header-port{
-            margin-top: 24px;
-            margin-bottom: 25px;
+            padding-top: 24px;
+            padding-bottom: 25px;
           }
           .nav-list{
             display: flex;
@@ -227,10 +227,12 @@ padding: 6px 22px;
 }
 .offers-title{
   margin-bottom: 4px;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 .offers-subtitle{
-  margin-bottom: 20px;
+ padding-bottom: 20px;
+ padding-left: 24px;
 }
 
 .address-wylica{
@@ -275,6 +277,8 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 margin-bottom: 20px;
+display: flex;
+margin-left: auto;margin-right: auto;padding-left: 1px;
 }
 .offers-ul{
     gap: 30px;
@@ -287,4 +291,11 @@ margin-bottom: 20px;
 padding-left: 0px;
   padding-right: 0px;
   flex-wrap: wrap;
+}
+img{
+  width: 370px;
+height: 294px;
+}
+.offers-div{
+  margin-bottom: 30px;
 }

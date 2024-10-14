@@ -222,6 +222,9 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 margin-bottom: 20px;
+display: flex;
+margin-left: auto;margin-right: auto;padding-left: 1px;
+
   }
 #header{
   padding-top: 24px;
