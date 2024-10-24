@@ -308,3 +308,10 @@ margin-top: 9px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.engaged-img{
+ flex-basis: calc((100% - 60px)  /  3 );
+}
+.command-item{
+  flex-basis: calc((100% - 90px)  /  4 );
+}
