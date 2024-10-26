@@ -183,7 +183,7 @@ letter-spacing: 0.78px;
 
   .spusok{
     display: flex;
-    margin-bottom: 35px;
+    margin-bottom: 50 px;
     align-items: center;
     gap: 8px;
     justify-content: center;
@@ -291,14 +291,27 @@ margin-left: auto;margin-right: auto;padding-left: 1px;
 padding-left: 0px;
   padding-right: 0px;
   flex-wrap: wrap;
+  border-top: var(--line-color) solid 1px ;
 }
 img{
-  width: 370px;
-height: 294px;
+  width: 100%;  
+
 }
 .offers-div{
-  margin-bottom: 30px;
+  
 }
 .offers-item{
   flex-basis: calc((100% - 60px)  /  3 );
+ }
+ img{
+  width: 100%;
+ }
+ .offers-item{
+  outline: 1px solid var(--borter-color);
+ }
+ .spusok{
+  margin-bottom: 34px;
+ }
+ .address{
+  font-family: "Roboto";
  }
