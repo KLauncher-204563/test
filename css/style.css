@@ -314,4 +314,12 @@ margin-top: 9px;
 }
 .command-item{
   flex-basis: calc((100% - 90px)  /  4 );
+} 
+.ability-img{
+  background-color: var( --tem-background);
+  width: 270px;
+  height: 120px;
+  display: block;
+  margin-bottom: 30px;
+outline: #FFFFFF solid 1px;
 }
