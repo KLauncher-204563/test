@@ -28,6 +28,7 @@
     
     }
 
+
   a{color: #757575;}
   
 [type="button"]:hover{
@@ -317,4 +318,15 @@ img{
  }
  .address{
   font-family: "Roboto";
+ }
+ .offers-item{
+
+ }
+ [type="li"]:hover{
+   ;
+   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+ }
+ #port{
+  color: var( --akcen-tcolor);
+  border: var( --akcen-tcolor) 2px;
  }
