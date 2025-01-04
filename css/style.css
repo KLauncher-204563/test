@@ -168,6 +168,8 @@ letter-spacing: 0.48px;
 
 }
 .contact-link{
+  display: flex;
+  align-items: center;
   color: var(--et-textcolor);
 font-size: 14px;
 font-weight: 500;
@@ -398,12 +400,12 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0
  
 
  .svg-container {
-  display: flex; /* Використання Flexbox для розташування елементів */
-  justify-content: center; /* Центрування по горизонталі */
-  align-items: center; /* Вирівнювання по вертикалі */
-  gap: 30px; /* Відстань між елементами */
-  padding: 0; /* Прибираємо внутрішні відступи */
-  margin: 0; /* Прибираємо зовнішні відступи */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  padding: 0; 
+  margin: 0;  
   color: #212121;
 margin-bottom: 94px;
 }
@@ -418,14 +420,14 @@ margin-bottom: 94px;
 }
 
 .client-itme {
-  display: inline-flex; /* Додаткове вирівнювання для кожного елемента */
+  display: inline-flex; 
 }
 
 .clients-icon {
-  width: 170px; /* Задає ширину SVG */
-  height: 92px; /* Задає висоту SVG */
-  fill: #333; /* Колір SVG */
-  transition: transform 0.3s, fill 0.3s; /* Анімація при наведенні */
+  width: 170px; 
+  height: 92px; 
+  fill: #333; 
+  transition: transform 0.3s, fill 0.3s; 
   fill: #AFB1B8;
   border-radius: 4px;
 border: 1px solid #AFB1B8;
@@ -436,27 +438,16 @@ border: 1px solid #AFB1B8;
 }
 
 .clients-icon:hover {
-  transform: scale(1.2); /* Збільшення при наведенні */
-  fill: #007bff; /* Зміна кольору при наведенні */
+  fill: #007bff; 
 }
-.command-item:hover {
-  transform: scale(1.1); /* Збільшення при наведенні */
-}
-
-
-
-
-
-
-
 
 
 
 .a-sos {
   display: flex; 
-  display: inline-flex; /* Розташування SVG в рядок */
-  align-items: center; /* Вирівнювання по вертикалі */
-  text-decoration: none; /* Прибираємо підкреслення у посилань */
+  display: inline-flex; 
+  align-items: center; 
+  text-decoration: none; 
   margin-left: 34px;
   margin-top: 28px;
 }
@@ -467,17 +458,16 @@ border: 1px solid #AFB1B8;
   align-items: center;
   justify-content: space-between;
   display: flex; 
-  width: 20px; /* Ширина SVG */
-  height: 20px; /* Висота SVG */
-  transition: transform 0.3s, fill 0.3s; /* Анімація при наведенні */
-}
+  width: 20px; 
+  height: 20px; 
+  transition: transform 0.3s, fill 0.3s; }
 
 .icon-sos:hover {
    outline: 12px solid #2196F3; 
    border-radius: 50px;
   background-color: #2196F3;
-  fill: #FFFFFF; /* Зміна кольору при наведенні */
-  transform: scale(1.1); /* Збільшення при наведенні */
+  fill: #FFFFFF; 
+
 }
 
 
@@ -503,6 +493,7 @@ padding-left: 32px;
   fill: #2196F3;
 }
 .icon-item {
+
   margin-right: 10px;
   width: 16px;
 height: 16px;
@@ -512,5 +503,17 @@ height: 16px;
 
 .contact-link:hover .icon-item {
   fill: #2196F3;
-
 }
+.clients-icon:hover{
+border: 1px solid #2196F3;
+}
+.command-sos{
+  display: flex;
+}
+.address{
+  display: flex;
+  justify-content: center;
+}
+
+
+
