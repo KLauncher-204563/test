@@ -23,15 +23,7 @@
 
     body {
       font-family: "Roboto";
-     };
-
-.container{
-/* outline: 10px solid red; */
-  width: 900px;
-  margin-left: auto;
-}
-
-    
+     };    
 .effective-caption{
   
   width: 696px;
@@ -407,16 +399,15 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0
   padding: 0; 
   margin: 0;  
   color: #212121;
-margin-bottom: 94px;
+
 }
-.svg-h2{
+.svg-hhh{
   text-align: center;
   font-family: "Roboto";
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
-  margin-top: 94px;
 }
 
 .client-itme {
@@ -448,30 +439,35 @@ border: 1px solid #AFB1B8;
   display: inline-flex; 
   align-items: center; 
   text-decoration: none; 
-  margin-left: 34px;
-  margin-top: 28px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;  
 }
 
 
 .icon-sos {
   fill: #AFB1B8;
-  align-items: center;
-  justify-content: space-between;
-  display: flex; 
+
   width: 20px; 
   height: 20px; 
   transition: transform 0.3s, fill 0.3s; }
 
-.icon-sos:hover {
-   outline: 12px solid #2196F3; 
-   border-radius: 50px;
+.a-sos:hover,
+.a-sos:focus { 
+  display: flex;
+  height: 44px; 
+  width: 44px;
+  justify-content: center;
+   border-radius: 50%;
   background-color: #2196F3;
-  fill: #FFFFFF; 
-
+  .icon-sos {
+    fill: #FFFFFF; 
+}
 }
 
-
 .h-sos{
+  width: 231px;
   color: #FFF;
 font-family: "Roboto";
 font-size: 14px;
@@ -486,10 +482,15 @@ padding-left: 32px;
 
 
 
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus{
   color: #2196F3;
+ .icon-item{
+    fill: #2196F3;
+  }
 }
-.icon-item:hover{
+.icon-item:hover,
+.icon-item:focus{
   fill: #2196F3;
 }
 .icon-item {
@@ -509,11 +510,48 @@ border: 1px solid #2196F3;
 }
 .command-sos{
   display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 28px;
 }
 .address{
   display: flex;
-  justify-content: center;
+  
 }
 
+.svg{
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.clants-link:focus{
+  .clients-icon{
+fill: #2196F3;
+  }
+}
+.addr-ul{
+  /* width: 241px; */
+  height: 40;
+  text-align: left;
+  padding-left: 215px; 
+}
 
+.qwer{
+display: flex;
+width: 241px;
+align-items: center;}
+.helpp{
+  display: flex;
+  width: 241px;
+  align-items: center;
+  flex-direction: column;
+}
+.containerrr{
+  width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.rty{
 
+}
