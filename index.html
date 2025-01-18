@@ -23,6 +23,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/js.css">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -71,7 +72,7 @@
           <h1 class="effective-captionnn">
             Ефективні рішення для вашого бізнесу
           </h1>
-          <button class="button">Замовити послугу</button>
+          <button class="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="ability">
@@ -351,8 +352,39 @@
                   <use href="./svg/symbol-defs.svg#icon-linkedin"></use></svg></a>
             </li>
           </ul>
+          <ul class="rozsulka">
+            <li>
+              <h2 class="roz-h">Підпишіться на розсилку</h2>
+            </li>
+            <!-- <li class="rozsulka-li">
+              <input type="email" class="name" name="email" placeholder="E-mail" required>
+              </li><li class="rozsulka-li">
+                <button><a href="">Підписатися <svg class="icon-sos">
+                  <use href="./svg/symbol-defs.svg#icon-linkedin"></use></svg></a></button>
+            </li> -->
+          </ul>
         </div>
       </address>
     </footer>
+    <div class="beckdrop is-hidden" data-modal>
+      <div class="modal">
+<button type="button" class="model-close" data-modal-close><svg class="model-buton"><use href="./svg/symbol--defs.svg#icon-close-black" class="icon-close-black"></use></svg></button>
+<h2 class="modal-h">Залиште свої дані, ми вам передзвонимо</h2>
+<p class="modal-name">Ім'я</p>
+<input type="text" name="name" class="name" placeholder=" Ім'я">
+<p class="modal-name">Телефон</p>
+<input type="tel"  class="name" name="phone" placeholder="+380123456789">
+<p class="modal-name">Пошта</p>
+<input type="email" class="name" name="email" placeholder="example@mail.com" required>
+<p class="modal-name">Коментар</p>
+<textarea class="comment" name="comment" rows="5" cols="40" placeholder="Напишіть ваш коментар тут..."></textarea>
+<label class="dogovor">
+  <input type="checkbox" name="agree" class="agree" value="yes" required>
+  <p  class="dogovor-p">Погоджуюся з розсилкою та приймаю <a href="https://edu.goiteens.com/uk/courses"><span class="dogovor-span"> Умови договору</span></a></p>
+</label>
+<button class="modal-butt"><a href="" class="modal-a">Відправити</a></button>
+<script src="./js/modal.js"></script>
+      </div>
+    </div>
   </body>
 </html>

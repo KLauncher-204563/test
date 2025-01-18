@@ -592,3 +592,26 @@ bottom: 0;
 z-index: 1; 
 padding: 27px;
 }
+.rozsulka{
+  display: flex;
+  position: relative;
+}
+.roz-h{
+  position: absolute;
+  right: 0px;
+}
+.rozsulka-li{position: absolute;
+ left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
