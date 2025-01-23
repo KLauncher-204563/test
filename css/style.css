@@ -469,7 +469,7 @@ border: 1px solid #AFB1B8;
 }
 }
 
-.h-sos{
+.h-sos{ 
  
   width: 231px;
   color: #FFF;
@@ -593,18 +593,168 @@ z-index: 1;
 padding: 27px;
 }
 .rozsulka{
+  width: 558px;
   display: flex;
   position: relative;
 }
 .roz-h{
   position: absolute;
   right: 0px;
+  margin-left: 500px;
+  
 }
 .rozsulka-li{position: absolute;
  left: 100px;
 }
 
+.modal{
+  width: 528px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 40px;
+}
 
+.modal-close{
+  width: 30px;
+height: 30px;
+background-color: transparent;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+outline: 1px solid rgba(0, 0, 0, 0.20);
+border: none;
+position: absolute;
+right: 8px;
+top: 8px;
+}
+
+.modal-close:hover,
+.modal-close:focus{
+  .modal-buttonsvg{
+    fill: #2196F3;
+  }
+}
+
+.modal-buttonsvg{
+  width: 18px;
+height: 18px;
+}
+.modal-title{
+  color: #212121;
+text-align: center;
+font-family: "Roboto";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+.modal-libe{
+  color: #757575;
+font-family: "Roboto";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+.modal-input{
+  width: 448px;
+  height: 40px;
+  border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-top: 4px;
+margin-bottom: 10px;
+padding-left: 42px;
+}
+.modal-input:hover,
+.modal-input:focus{
+  border: none;
+  outline: 1px solid #2196F3;
+}
+.modal-input:hover +.modal-svg,
+.modal-input:focus +.modal-svg{
+fill:#2196F3;
+}
+.modal-coment{
+  margin-top: 4px;
+  width: 448px;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+resize: none;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.checkbox-prim{
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+margin-left: 9px;
+}
+.modal-link{
+  color: #2196F3;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+.modal-chek{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.model-botun{
+  padding: 10px 52px ;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+border: none;
+margin-top: 30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.modal-svg{
+  width: 18px;
+height: 18px;
+position: absolute;
+top: 50%;
+transform: translateY(-60%);
+left: 12px;
+}
+.model-wrap{
+  position: relative;
+}
 
 
 

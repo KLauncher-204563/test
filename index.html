@@ -334,7 +334,7 @@
           <h2 class="h-sos">приєднуйтесь</h2>
           <ul class="qwer">   
         <li>
-              <a href="" class="a-sos"
+              <a href="" class="a-sos"    
                 ><svg class="icon-sos">
                   <use
                     href="./svg/symbol-defs.svg#icon-instagram"
@@ -352,39 +352,66 @@
                   <use href="./svg/symbol-defs.svg#icon-linkedin"></use></svg></a>
             </li>
           </ul>
+        </div>
+        <div>
           <ul class="rozsulka">
             <li>
               <h2 class="roz-h">Підпишіться на розсилку</h2>
             </li>
-            <!-- <li class="rozsulka-li">
+            <li class="rozsulka-li">
               <input type="email" class="name" name="email" placeholder="E-mail" required>
               </li><li class="rozsulka-li">
                 <button><a href="">Підписатися <svg class="icon-sos">
                   <use href="./svg/symbol-defs.svg#icon-linkedin"></use></svg></a></button>
-            </li> -->
+            </li>
           </ul>
         </div>
       </address>
     </footer>
-    <div class="beckdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-<button type="button" class="model-close" data-modal-close><svg class="model-buton"><use href="./svg/symbol--defs.svg#icon-close-black" class="icon-close-black"></use></svg></button>
-<h2 class="modal-h">Залиште свої дані, ми вам передзвонимо</h2>
-<p class="modal-name">Ім'я</p>
-<input type="text" name="name" class="name" placeholder=" Ім'я">
-<p class="modal-name">Телефон</p>
-<input type="tel"  class="name" name="phone" placeholder="+380123456789">
-<p class="modal-name">Пошта</p>
-<input type="email" class="name" name="email" placeholder="example@mail.com" required>
-<p class="modal-name">Коментар</p>
-<textarea class="comment" name="comment" rows="5" cols="40" placeholder="Напишіть ваш коментар тут..."></textarea>
-<label class="dogovor">
-  <input type="checkbox" name="agree" class="agree" value="yes" required>
-  <p  class="dogovor-p">Погоджуюся з розсилкою та приймаю <a href="https://edu.goiteens.com/uk/courses"><span class="dogovor-span"> Умови договору</span></a></p>
-</label>
-<button class="modal-butt"><a href="" class="modal-a">Відправити</a></button>
-<script src="./js/modal.js"></script>
+      <button type="button" class="modal-close" data-modal-close><svg class="modal-buttonsvg">
+        <use href="./svg/symbol--defs.svg#icon-close-black"></use>
+      </svg></button>
+      <form>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <label class="modal-libe">Ім'я
+          <div class="model-wrap">
+          <input type="text" class="modal-input" required> 
+          <svg class="modal-svg">
+            <use href="./svg/symbol--defs.svg#icon-person-black"></use>
+          </svg>
+        </div>
+        </label>
+        <label class="modal-libe">Телефон
+          <div class="model-wrap">
+          <input type="tel" class="modal-input" placeholder="+380XXXXXXXXX" required pattern="\+380(39|50|63|66|67|68|73|91|92|93|94|95|96|97|98|99)\d{7}"
+          >
+          <svg class="modal-svg">
+            <use href="./svg/symbol--defs.svg#icon-phone-black"></use>
+          </svg>
+          </div>
+        </label>
+        <label class="modal-libe">Пошта
+          <div class="model-wrap">
+          <input type="email" class="modal-input" required>
+          <svg class="modal-svg">
+            <use href="./svg/symbol--defs.svg#icon-email-black"></use>
+          </svg>
+          </div>
+        </label>
+        <label class="modal-libe" >Коментар
+         <textarea name="" class="modal-coment" placeholder="Введіть текст"></textarea>
+        </label>
+      <label class="modal-chek">
+      <input type="checkbox" required>
+      <span class="checkbox-prim">Погоджуюся з розсилкою та приймаю</span>
+       <a href="" class="modal-link">Умови договору</a>
+    </label>
+    <button type="submit" class="model-botun">Відправити</button>
+      </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
