@@ -835,5 +835,7 @@ height: 24px;
   text-decoration-thickness: 4px; /* Толщина подчеркивания */
   text-underline-offset: 32px; /* Отступ подчеркивания */
   border-radius: 2px;
-
+  transition-duration: 2500ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-property: text-decoration, text-decoration-color, text-decoration-thickness,  text-underline-offset;
 }
