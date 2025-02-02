@@ -829,3 +829,11 @@ text-transform: uppercase;
   width: 24px;
 height: 24px;
 }
+.nav-link:hover{
+  text-decoration: underline #2196F3;
+  text-decoration-color: #2196F3; /* Цвет подчеркивания */
+  text-decoration-thickness: 4px; /* Толщина подчеркивания */
+  text-underline-offset: 32px; /* Отступ подчеркивания */
+  border-radius: 2px;
+
+}

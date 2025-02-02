@@ -306,22 +306,21 @@ img{
 }
 .offers-item{
   flex-basis: calc((100% - 60px)  /  3 );
+    outline: 1px solid var(--borter-color);
+    position: relative;
+    
  }
  img{
   width: 100%;
  }
- .offers-item{
-  outline: 1px solid var(--borter-color);
- }
+
  .spusok{
   margin-bottom: 34px;
  }
  .address{
   font-family: "Roboto";
  }
- .offers-item{
 
- }
  [type="li"]:hover{
    ;
    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -330,3 +329,29 @@ img{
   color: var( --akcen-tcolor);
   border: var( --akcen-tcolor) 2px;
  }
+.offers-z{
+  color: #FFF;
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+letter-spacing: 0.54px;
+  position: absolute;
+  bottom: 110px;
+  padding-top: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: rgba(33, 150, 243, 0.90);
+  width: 370px;
+height: 294px;
+opacity: 0;
+transition-duration: 350ms;
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+transition-property: background-color, color, left ,opacity:;
+}
+.offers-item:hover{
+  .offers-z{
+    opacity: 1;
+  }
+}
