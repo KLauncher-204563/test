@@ -184,6 +184,9 @@ font-size: 14px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+transition-duration: 250ms;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+ transition-property: color;
 }
 .command{
   background: #F5F4FA;
@@ -446,6 +449,10 @@ border: 1px solid #AFB1B8;
   height: 44px;
   display: flex;
   justify-content: center;  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color,; 
+  
 }
 
 
@@ -836,6 +843,16 @@ height: 24px;
   text-underline-offset: 32px; /* Отступ подчеркивания */
   border-radius: 2px;
   transition-duration: 2500ms;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition-property: text-decoration, text-decoration-color, text-decoration-thickness,  text-underline-offset;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: text-decoration, text-decoration-color, text-decoration-thickness,  text-underline-offset; 
+}
+.contact-link{
+  transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: color;
+}
+svg{
+transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: color , ;
+}
+.clients-icon{
+
+  transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: color ,   border ;
 }
