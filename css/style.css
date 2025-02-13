@@ -39,6 +39,7 @@ margin-bottom: 30px;
 text-transform: uppercase;
 }
 .button{
+
   padding: 10px 32px;
 margin-left: auto;
 margin-right: auto;
@@ -448,10 +449,11 @@ border: 1px solid #AFB1B8;
   width: 44px;
   height: 44px;
   display: flex;
-  justify-content: center;  
+  justify-content: center; 
+     transition-property: background-color , color; 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color,; 
+
   
 }
 
@@ -487,7 +489,8 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-padding-left: 32px;
+margin-bottom: 20px;
+text-align: center;
 }
 
 
@@ -527,7 +530,7 @@ border: 1px solid #2196F3;
 }
 .address{
   display: flex;
-  
+
 }
 
 .svg{
@@ -548,8 +551,8 @@ fill: #2196F3;
 }
 
 .qwer{
-display: flex;
-width: 241px;
+display: flex;  
+gap: 10px;
 align-items: center;}
 .helpp{
   display: flex;
@@ -850,9 +853,26 @@ height: 24px;
   transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: color;
 }
 svg{
-transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: color , ;
+transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: fill ;
 }
 .clients-icon{
 
   transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: color ,   border ;
+}
+.icon-item {
+  transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: fill ;
+}
+
+.clients-icon {
+  transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: fill ;
+}
+.clients-icon{
+  transition-duration: 250ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: fill ;
+}
+.koma{
+  margin-top: 45px;
+    position: absolute;
+    right: 120px;
+    transform: translateY(-50%);
+ 
 }

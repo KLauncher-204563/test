@@ -90,7 +90,15 @@ letter-spacing: 0.48px;
   font-weight: 700;
   line-height: 187.5%; 
   letter-spacing: 0.96px;
+  transition-property: background-color ,  box-shadow, border , color ,background;
+  transition-duration: 2500ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
   } 
+  button{
+  transition-property: background-color ,  box-shadow, border , color ,background;
+  transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
 body {
     font-family: "Roboto";
    };
@@ -301,14 +309,11 @@ img{
   width: 100%;  
 
 }
-.offers-div{
-  
-}
+
 .offers-item{
   flex-basis: calc((100% - 60px)  /  3 );
     outline: 1px solid var(--borter-color);
     position: relative;
-    
  }
  img{
   width: 100%;
@@ -322,7 +327,6 @@ img{
  }
 
  [type="li"]:hover{
-   ;
    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
  }
  #port{
@@ -346,12 +350,15 @@ letter-spacing: 0.54px;
   width: 370px;
 height: 294px;
 opacity: 0;
-transition-duration: 350ms;
-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-transition-property: background-color, color, left ,opacity:;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-property: background-color, color, left ,opacity, transform;
+transform: translateY(100%);
+
 }
 .offers-item:hover{
   .offers-z{
     opacity: 1;
+    transform: translateY(0);
   }
 }
