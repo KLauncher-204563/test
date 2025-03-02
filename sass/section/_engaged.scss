@@ -1,0 +1,43 @@
+.engaged {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  
+  .engaged-title {
+    line-height: 42px;
+    color: var(--main-text);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  
+  .engaged-ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .engaged-img {
+    flex-basis: calc((100% - 60px) / 3);
+    position: relative;
+  }
+  
+  .text {
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    background: rgba(47, 48, 58, 0.80);
+    bottom: 0;
+    z-index: 1;
+    padding: 27px;
+  }

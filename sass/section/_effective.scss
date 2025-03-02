@@ -1,0 +1,32 @@
+.effective {
+    background-color: #2F303A;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .animate__animated {
+    /* ваші стилі для анімації */
+  }
+  
+  .animate__flipInX {
+    /* ваші стилі для анімації */
+  }
+  .effective-captionnn{
+    width: 696px;
+    color: var(--title-color);
+  text-align: center;
+  line-height: 60px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 136.364%;
+  letter-spacing: 2.64px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  }

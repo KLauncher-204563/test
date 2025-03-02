@@ -1,0 +1,98 @@
+.command {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: #F5F4FA;
+  }
+  
+  .container {
+    /* ваші стилі */
+  }
+  
+  .command-subject {
+    color: var(--main-text);
+    text-align: center;
+    line-height: 42px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  
+  .command-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .command-item {
+    flex-basis: calc((100% - 90px) / 4);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  }
+  
+  .bacraud-robotnik {
+    background-color: var(--color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .command-name {
+    color: var(--main-text);
+    text-align: center;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+  }
+  
+  .command-profession {
+    margin-top: 10px;
+    line-height: 19px;
+    color: var(--et-textcolor);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+  
+  .command-sos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 28px;
+  }
+  
+  .a-sos {
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .icon-sos {
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s, fill 0.3s;
+  }
+  
+  .a-sos:hover,
+  .a-sos:focus {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2196F3;
+  }
+  
+  .a-sos:hover .icon-sos,
+  .a-sos:focus .icon-sos {
+    fill: #FFFFFF;
+  }

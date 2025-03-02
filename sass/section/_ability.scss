@@ -1,0 +1,32 @@
+.ability {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .ability-items {
+    gap: 30px;
+    display: flex;
+  }
+  
+  .ability-item {
+    /* ваші стилі */
+  }
+  
+  .ability-heading {
+    color: var(--main-text);
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .ability-subtitle {
+    color: var(--et-textcolor);
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+  }

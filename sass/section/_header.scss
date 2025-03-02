@@ -1,0 +1,88 @@
+.index-header {
+    /* ваші стилі */
+  }
+  
+  .container {
+    /* ваші стилі */
+  }
+  
+  .header-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .animate__animated {
+    /* ваші стилі */
+  }
+  
+  .animate__backInLeft {
+    /* ваші стилі */
+  }
+  
+  .webstudio {
+    color: var(--logo-colot);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    margin-right: 93px;
+  }
+  
+  .nav {
+    /* ваші стилі */
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .nav-item {
+    /* ваші стилі */
+  }
+  
+  .nav-link {
+    color: var(--main-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  
+  .contact-list {
+    display: flex;
+    gap: 30px;
+    color: var(--et-textcolor);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    margin-left: auto;
+  }
+  
+  .contact-item {
+    /* ваші стилі */
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    color: var(--et-textcolor);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  
+  .icon-item {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    fill: #AFB1B8;
+    transition: fill 0.3s;
+  }
