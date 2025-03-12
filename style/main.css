@@ -673,7 +673,6 @@ html {
 }
 
 .modal-close {
-  width: 30px;
   height: 30px;
   background-color: transparent;
   border-radius: 50%;
@@ -968,7 +967,6 @@ a {
 
 [type=button]:hover {
   color: var(--title-color);
-  background-color: var(--akcen-tcolor);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -1059,6 +1057,18 @@ body {
   font-weight: 400;
   line-height: 171.429%;
   letter-spacing: 0.42px;
+}
+
+main {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+}
+
+html {
+  background-color: var(--footer-background);
 }
 
 .webstudio {
@@ -1315,7 +1325,7 @@ img {
   padding-right: 24px;
   background: rgba(33, 150, 243, 0.9);
   width: 370px;
-  height: 294px;
+  height: 110px;
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1327,6 +1337,7 @@ img {
 .offers-item:hover .offers-z {
   opacity: 1;
   transform: translateY(0);
+  height: 294px;
 }
 
 :root {
@@ -1785,7 +1796,7 @@ img {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  fill: #AFB1B8;
+  fill: var(--et-textcolor);
   transition: fill 0.3s;
 }
 
@@ -2059,11 +2070,15 @@ svg {
   background: var(--footer-background);
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1390px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+footer {
+  background: var(--footer-background);
+  width: 1390px;
 }
 
 .address {
@@ -2133,6 +2148,10 @@ svg {
   margin-right: 90px;
 }
 
+.-sos-foter {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .footer {
   background: var(--footer-background);
   padding-top: 60px;
@@ -2257,12 +2276,20 @@ svg {
   height: 40px;
   text-align: left;
   padding-left: 215px;
+}
+
+.komaa {
+  margin-left: 93px;
 }
 
 .is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.nav {
+  position: relative;
 }
 
 .beckdrop {
@@ -2279,7 +2306,6 @@ svg {
 }
 
 .modal {
-  position: relative;
   width: 528px;
   height: 581px;
   border-radius: 4px;
