@@ -232,7 +232,7 @@ padding-bottom: 60px;
 display: flex;
 align-items: center;
 }
-.engaged-ul{
+.engaged-list{
 display: flex;
   justify-content: space-around;
   gap: 30px;
@@ -418,7 +418,7 @@ fill: #007bff;
 
 
 
-.a-sos{
+.item-sos{
   border-radius: 100%;
 // background-color: #757575;
 display: flex; 
@@ -444,8 +444,8 @@ width: 20px;
 height: 20px; 
 transition: transform 0.3s, fill 0.3s; }
 
-.a-sos:hover,
-.a-sos:focus { 
+.item-sos:hover,
+.item-sos:focus { 
 display: flex;
 height: 44px; 
 width: 44px;
@@ -559,12 +559,12 @@ margin-right: auto;
 margin-bottom: 30px;
 text-transform: uppercase;
 }
-.rty{
+.addr-list{
 line-height: normal;
 padding-left: 70px;
 }
 
-.text{
+.text-subtitle{
 width: 100%;
 color: #FFF;
 text-align: center;
