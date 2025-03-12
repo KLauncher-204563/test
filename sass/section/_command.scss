@@ -9,7 +9,7 @@
   }
   
   .command-subject {
-    color: var(--main-text);
+    color: $main-text;
     text-align: center;
     line-height: 42px;
     font-size: 36px;
@@ -30,13 +30,13 @@
   }
   
   .bacraud-robotnik {
-    background-color: var(--color);
+    background-color: $color;
     padding-top: 30px;
     padding-bottom: 30px;
   }
   
   .command-name {
-    color: var(--main-text);
+    color: $main-text;
     text-align: center;
     line-height: 19px;
     font-size: 16px;
@@ -47,7 +47,7 @@
   .command-profession {
     margin-top: 10px;
     line-height: 19px;
-    color: var(--et-textcolor);
+    color: $et-textcolor;
     text-align: center;
     font-size: 16px;
     font-weight: 400;

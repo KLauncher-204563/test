@@ -889,7 +889,22 @@ letter-spacing: 0.48px;
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px; 
 }
-
+:root{
+  --akcen-tcolor:#2196F3;
+  --logo-colot:#000;
+  --main-text:#212121;
+  --et-textcolor:#757575;
+  --title-color:#FFFFFF;
+  --tem-background:#F5F4FA;
+  --footer-background:#2F303A;
+  --adres-color:rgba(255, 255, 255, 0.60);
+  --line-color:#ECECEC;
+  --borter-color:#EEEEEE;
+      --background: rgb(10, 14, 243);
+  --color: rgb(255, 255, 255);
+  --background2: rgb(0, 0, 0);
+  --background3: rgb(190, 192, 196);
+}
 
 .offers-subtitle{
   color: #757575;
@@ -1138,7 +1153,7 @@ flex-direction: column;
 }
 .webstudio-foter{
 display: flex;
-color: var(--title-color);
+color: $title-color;
 font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
@@ -1158,7 +1173,7 @@ gap: 30px;
 padding-left: 0px;
 padding-right: 0px;
 flex-wrap: wrap;
-border-top: var(--line-color) solid 1px ;
+border-top: $line-color solid 1px ;
 }
 img{
 width: 100%;  
@@ -1167,7 +1182,7 @@ width: 100%;
 
 .offers-item{
 flex-basis: calc((100% - 60px)  /  3 );
-  outline: 1px solid var(--borter-color);
+  outline: 1px solid $borter-color;
   position: relative;
 }
 
@@ -1186,8 +1201,8 @@ font-family: "Roboto";
  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 #port{
-color: var( --akcen-tcolor);
-border: var( --akcen-tcolor) 2px;
+color: $akcen-tcolor;
+border: $akcen-tcolor 2px;
 }
 .offers-z{
 color: #FFF;

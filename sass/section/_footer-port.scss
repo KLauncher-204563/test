@@ -1,11 +1,11 @@
 .footer {
-    background: var(--footer-background);
+    background: $footer-background;
     padding-top: 60px;
     padding-bottom: 60px;
   }
   
   .webstudio-foter {
-    color: var(--title-color);
+    color: $title-color;
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
@@ -29,7 +29,7 @@
   .addr-nomer {
     display: flex;
     flex-direction: column;
-    color: var(--et-textcolor);
+    color: $et-textcolor;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -39,7 +39,7 @@
   .addr-emeil {
     display: flex;
     flex-direction: column;
-    color: var(--et-textcolor);
+    color: $et-textcolor;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -60,7 +60,7 @@
     padding-left: 215px;
   }
   .footer {
-    background: var(--footer-background);
+    background: $footer-background;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -68,7 +68,7 @@
   .webstudio-foter {
     line-height: normal;
     display: flex;
-    color: var(--title-color);
+    color: $title-color;
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
@@ -92,7 +92,7 @@
   .addr-nomer {
     display: flex;
     flex-direction: column;
-    color: var(--et-textcolor);
+    color: $et-textcolor;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -102,7 +102,7 @@
   .addr-emeil {
     display: flex;
     flex-direction: column;
-    color: var(--et-textcolor);
+    color: $et-textcolor;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
