@@ -1,36 +1,15 @@
-.is-hidden{
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-}
-.nav{
-      position: relative;  
-}
-.beckdrop{
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background: rgba(0, 0, 0, 0.20);
-display: flex;
-align-items: center;
-justify-content: center;
-opacity: 1;
-}
 .modal{
-
     width: 528px;
     height: 581px;
     border-radius: 4px;
 background: #FFF;
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-}   
-.model-buton{
+
+&-buton{
     width: 18px;
     height: 18px;
 }
-.model-close{
+&-close{
  background-color: #FFF;
  width: 30px;
 height: 30px;
@@ -42,13 +21,30 @@ border:  1px solid rgba(0, 0, 0, 0.10);
 position: absolute;
 right: 0;
 }
-.model-close:hover,
-.model-close:focus{
-    .model-buton{
-    fill: #2196F3;
+&-butt{
+    margin-left: 165px;
+    margin-top: 30px;
+    width: 200px;
+height: 50px;
+border-radius: 4px;
+background: #188CE8;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
 }
+&-a{
+    color: #FFF;
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: 0.96px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-.modal-h{
+&-h{
     display: flex;
     margin-top: 40px;
     justify-content: center;
@@ -61,7 +57,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
 }
-.modal-name{
+&-name{
     margin-left: 41px;
     margin-top: 14px;
     color: #757575;
@@ -72,6 +68,8 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.12px;
 }
+}
+
 .name{
     width: 448px;
 height: 40px;
@@ -121,26 +119,30 @@ display: inline;
     width: 16px;
 display: inline;
 }
-.modal-butt{
-    margin-left: 165px;
-    margin-top: 30px;
-    width: 200px;
-height: 50px;
-border-radius: 4px;
-background: #188CE8;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-border: none;
+
+.model-close:hover,
+.model-close:focus{
+    .model-buton{
+    fill: #2196F3;
 }
-.modal-a{
-    color: #FFF;
-text-align: center;
-font-family: "Roboto";
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; 
-letter-spacing: 0.96px;
+}
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+.nav{
+      position: relative;  
+}
+.beckdrop{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.20);
 display: flex;
 align-items: center;
 justify-content: center;
+opacity: 1;
 }

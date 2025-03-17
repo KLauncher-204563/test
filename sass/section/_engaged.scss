@@ -1,9 +1,9 @@
 .engaged {
     padding-bottom: 94px;
     padding-top: 94px;
-  }
+
   
-  .engaged-title {
+  &-title {
     line-height: 42px;
     color: $main-text;
     text-align: center;
@@ -13,17 +13,17 @@
     margin-bottom: 50px;
   }
   
-  .engaged-list {
+  &-list {
     display: flex;
     justify-content: space-around;
     gap: 30px;
   }
   
-  .engaged-img {
+  &-img {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
   }
-  
+    }
   .text {
     width: 100%;
     color: #FFF;

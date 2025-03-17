@@ -869,7 +869,7 @@ a{color: #757575;}
 
 [type="button"]:hover{
   color: var(--title-color);
-  // background-color:var(--akcen-tcolor) ;
+  background-color: #2196F3;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);}
 
 .item-spusok{
@@ -1153,7 +1153,7 @@ flex-direction: column;
 }
 .webstudio-foter{
 display: flex;
-color: $title-color;
+color: var( --title-color);
 font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
@@ -1173,7 +1173,7 @@ gap: 30px;
 padding-left: 0px;
 padding-right: 0px;
 flex-wrap: wrap;
-border-top: $line-color solid 1px ;
+border-top: var(--line-color) solid 1px ;
 }
 img{
 width: 100%;  
@@ -1182,7 +1182,7 @@ width: 100%;
 
 .offers-item{
 flex-basis: calc((100% - 60px)  /  3 );
-  outline: 1px solid $borter-color;
+  outline: 1px solid var(--borter-color) ;
   position: relative;
 }
 
@@ -1201,8 +1201,8 @@ font-family: "Roboto";
  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 #port{
-color: $akcen-tcolor;
-border: $akcen-tcolor 2px;
+color: var(--akcen-tcolor);
+border: var(--akcen-tcolor) 2px;
 }
 .offers-z{
 color: #FFF;

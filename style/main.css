@@ -967,6 +967,7 @@ a {
 
 [type=button]:hover {
   color: var(--title-color);
+  background-color: #2196F3;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -986,6 +987,23 @@ a {
   font-weight: 700;
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
+}
+
+:root {
+  --akcen-tcolor:#2196F3;
+  --logo-colot:#000;
+  --main-text:#212121;
+  --et-textcolor:#757575;
+  --title-color:#FFFFFF;
+  --tem-background:#F5F4FA;
+  --footer-background:#2F303A;
+  --adres-color:rgba(255, 255, 255, 0.60);
+  --line-color:#ECECEC;
+  --borter-color:#EEEEEE;
+  --background: rgb(10, 14, 243);
+  --color: rgb(255, 255, 255);
+  --background2: rgb(0, 0, 0);
+  --background3: rgb(190, 192, 196);
 }
 
 .offers-subtitle {
@@ -1340,46 +1358,13 @@ img {
   height: 294px;
 }
 
-:root {
-  --akcen-tcolor:#2196F3;
-  --logo-colot:#000;
-  --main-text:#212121;
-  --et-textcolor:#757575;
-  --title-color:#FFFFFF;
-  --tem-background:#F5F4FA;
-  --footer-background:#2F303A;
-  --adres-color:rgba(255, 255, 255, 0.60);
-  --line-color:#ECECEC;
-  --borter-color:#EEEEEE;
-  --background: rgb(10, 14, 243);
-  --color: rgb(255, 255, 255);
-  --background2: rgb(0, 0, 0);
-  --background3: rgb(190, 192, 196);
-}
-
-.index-header {
-  /* ваші стилі */
-}
-
-.container {
-  /* ваші стилі */
-}
-
 .header-box {
   display: flex;
   align-items: center;
 }
 
-.animate__animated {
-  /* ваші стилі */
-}
-
-.animate__backInLeft {
-  /* ваші стилі */
-}
-
 .webstudio {
-  color: var(--logo-colot);
+  color: #000;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -1387,21 +1372,13 @@ img {
   margin-right: 93px;
 }
 
-.nav {
-  /* ваші стилі */
-}
-
 .nav-list {
   display: flex;
   gap: 50px;
 }
 
-.nav-item {
-  /* ваші стилі */
-}
-
 .nav-link {
-  color: var(--main-text);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1414,21 +1391,17 @@ img {
 .contact-list {
   display: flex;
   gap: 30px;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
   margin-left: auto;
 }
 
-.contact-item {
-  /* ваші стилі */
-}
-
 .contact-link {
   display: flex;
   align-items: center;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1446,29 +1419,13 @@ img {
   transition: fill 0.3s;
 }
 
-.index-header {
-  /* ваші стилі */
-}
-
-.container {
-  /* ваші стилі */
-}
-
 .header-box {
   display: flex;
   align-items: center;
 }
 
-.animate__animated {
-  /* ваші стилі */
-}
-
-.animate__backInLeft {
-  /* ваші стилі */
-}
-
 .webstudio {
-  color: var(--logo-colot);
+  color: #000;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -1477,15 +1434,11 @@ img {
 }
 
 .web {
-  color: var(--akcen-tcolor);
+  color: #2196F3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-}
-
-.nav {
-  /* ваші стилі */
 }
 
 .nav-list {
@@ -1493,12 +1446,8 @@ img {
   gap: 50px;
 }
 
-.nav-item {
-  /* ваші стилі */
-}
-
 .nav-link {
-  color: var(--main-text);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1511,21 +1460,17 @@ img {
 .contact-list {
   display: flex;
   gap: 30px;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
   margin-left: auto;
 }
 
-.contact-item {
-  /* ваші стилі */
-}
-
 .contact-link {
   display: flex;
   align-items: center;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1543,21 +1488,9 @@ img {
   transition: fill 0.3s;
 }
 
-#header {
-  /* ваші стилі */
-}
-
-#sty {
-  /* ваші стилі */
-}
-
 .index-header {
   padding-top: 24px;
   padding-bottom: 25px;
-}
-
-.container {
-  /* ваші стилі */
 }
 
 .header-box {
@@ -1565,16 +1498,8 @@ img {
   align-items: center;
 }
 
-.animate__animated {
-  /* ваші стилі */
-}
-
-.animate__backInLeft {
-  /* ваші стилі */
-}
-
 .webstudio {
-  color: var(--logo-colot);
+  color: #000;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -1583,15 +1508,11 @@ img {
 }
 
 .web {
-  color: var(--akcen-tcolor);
+  color: #2196F3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-}
-
-.nav {
-  /* ваші стилі */
 }
 
 .nav-list {
@@ -1599,12 +1520,8 @@ img {
   gap: 50px;
 }
 
-.nav-item {
-  /* ваші стилі */
-}
-
 .nav-link {
-  color: var(--main-text);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1631,21 +1548,17 @@ img {
 .contact-list {
   display: flex;
   gap: 30px;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
   margin-left: auto;
 }
 
-.contact-item {
-  /* ваші стилі */
-}
-
 .contact-link {
   display: flex;
   align-items: center;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1679,8 +1592,8 @@ img {
 }
 
 #sty {
-  color: var(--akcen-tcolor);
-  border: var(--akcen-tcolor) 2px;
+  color: #2196F3;
+  border: #2196F3 2px;
 }
 
 .index-header {
@@ -1688,25 +1601,13 @@ img {
   padding-bottom: 25px;
 }
 
-.container {
-  /* ваші стилі */
-}
-
 .header-box {
   display: flex;
   align-items: center;
 }
 
-.animate__animated {
-  /* ваші стилі */
-}
-
-.animate__backInLeft {
-  /* ваші стилі */
-}
-
 .webstudio {
-  color: var(--logo-colot);
+  color: #000;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -1715,15 +1616,11 @@ img {
 }
 
 .web {
-  color: var(--akcen-tcolor);
+  color: #2196F3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-}
-
-.nav {
-  /* ваші стилі */
 }
 
 .nav-list {
@@ -1731,12 +1628,8 @@ img {
   gap: 50px;
 }
 
-.nav-item {
-  /* ваші стилі */
-}
-
 .nav-link {
-  color: var(--main-text);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1763,21 +1656,17 @@ img {
 .contact-list {
   display: flex;
   gap: 30px;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
   margin-left: auto;
 }
 
-.contact-item {
-  /* ваші стилі */
-}
-
 .contact-link {
   display: flex;
   align-items: center;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -1796,7 +1685,7 @@ img {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  fill: var(--et-textcolor);
+  fill: #757575;
   transition: fill 0.3s;
 }
 
@@ -1811,26 +1700,20 @@ img {
 }
 
 #sty {
-  color: var(--akcen-tcolor);
-  border: var(--akcen-tcolor) 2px;
+  color: #2196F3;
+  border: #2196F3 2px;
 }
 
 .ability {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .ability-items {
   gap: 30px;
   display: flex;
 }
-
-.ability-item {
-  /* ваші стилі */
-}
-
 .ability-heading {
-  color: var(--main-text);
+  color: #212121;
   line-height: 16px;
   font-size: 14px;
   font-weight: 700;
@@ -1838,9 +1721,8 @@ img {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
 .ability-subtitle {
-  color: var(--et-textcolor);
+  color: #757575;
   line-height: 24px;
   font-size: 14px;
   font-weight: 400;
@@ -1853,13 +1735,8 @@ img {
   padding-bottom: 94px;
   background: #F5F4FA;
 }
-
-.container {
-  /* ваші стилі */
-}
-
 .command-subject {
-  color: var(--main-text);
+  color: #212121;
   text-align: center;
   line-height: 42px;
   font-size: 36px;
@@ -1867,49 +1744,44 @@ img {
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
-
 .command-items {
   display: flex;
   justify-content: space-around;
   gap: 30px;
 }
-
 .command-item {
   flex-basis: calc((100% - 90px) / 4);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
-
-.bacraud-robotnik {
-  background-color: var(--color);
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .command-name {
-  color: var(--main-text);
+  color: #212121;
   text-align: center;
   line-height: 19px;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
 }
-
 .command-profession {
   margin-top: 10px;
   line-height: 19px;
-  color: var(--et-textcolor);
+  color: #757575;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-
 .command-sos {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 28px;
+}
+
+.bacraud-robotnik {
+  background-color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .a-sos {
@@ -1957,18 +1829,9 @@ img {
   background-position: center;
   background-size: cover;
 }
-
-.animate__animated {
-  /* ваші стилі для анімації */
-}
-
-.animate__flipInX {
-  /* ваші стилі для анімації */
-}
-
 .effective-captionnn {
   width: 696px;
-  color: var(--title-color);
+  color: #FFFFFF;
   text-align: center;
   line-height: 60px;
   font-size: 44px;
@@ -1985,23 +1848,20 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-
 .engaged-title {
   line-height: 42px;
-  color: var(--main-text);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
-
 .engaged-list {
   display: flex;
   justify-content: space-around;
   gap: 30px;
 }
-
 .engaged-img {
   flex-basis: calc((100% - 60px) / 3);
   position: relative;
@@ -2033,9 +1893,13 @@ img {
   padding-left: 0px;
   padding-right: 0px;
   flex-wrap: wrap;
-  border-top: var(--line-color) solid 1px;
+  border-top: #ECECEC solid 1px;
 }
 
+.svg {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .svg-container {
   display: flex;
   justify-content: center;
@@ -2045,7 +1909,6 @@ img {
   margin: 0;
   color: #212121;
 }
-
 .svg-hhh {
   text-align: center;
   font-family: "Roboto";
@@ -2055,11 +1918,6 @@ img {
   margin-bottom: 50px;
 }
 
-.svg {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
 svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2067,7 +1925,7 @@ svg {
 }
 
 .footer {
-  background: var(--footer-background);
+  background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -2077,7 +1935,7 @@ svg {
 }
 
 footer {
-  background: var(--footer-background);
+  background: #2F303A;
   width: 1390px;
 }
 
@@ -2085,21 +1943,6 @@ footer {
   width: 1390px;
   margin-left: 90px;
 }
-
-.webstudio-foter {
-  line-height: normal;
-  display: flex;
-  color: var(--title-color);
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 0.78px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1px;
-}
-
 .address-wylica {
   display: flex;
   flex-direction: column;
@@ -2110,20 +1953,37 @@ footer {
   letter-spacing: 0.42px;
 }
 
+.webstudio-foter {
+  line-height: normal;
+  display: flex;
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1px;
+}
+
+.addr {
+  display: flex;
+  flex-direction: column;
+}
 .addr-nomer {
   display: flex;
   flex-direction: column;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
 }
-
 .addr-emeil {
   display: flex;
   flex-direction: column;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -2131,12 +1991,32 @@ footer {
   margin-bottom: 9px;
   margin-top: 9px;
 }
-
-.addr {
+.addr-nomer {
   display: flex;
   flex-direction: column;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
-
+.addr-emeil {
+  display: flex;
+  flex-direction: column;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+.addr-ul {
+  margin-right: 70px;
+  height: 40px;
+  text-align: left;
+  padding-left: 215px;
+}
 .addr-ul {
   margin-right: 70px;
   height: 40px;
@@ -2153,53 +2033,9 @@ footer {
 }
 
 .footer {
-  background: var(--footer-background);
+  background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.webstudio-foter {
-  color: var(--title-color);
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 0.78px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1px;
-}
-
-.address-wylica {
-  display: flex;
-  flex-direction: column;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 171.429%;
-  letter-spacing: 0.42px;
-}
-
-.addr-nomer {
-  display: flex;
-  flex-direction: column;
-  color: var(--et-textcolor);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
-}
-
-.addr-emeil {
-  display: flex;
-  flex-direction: column;
-  color: var(--et-textcolor);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  margin-bottom: 9px;
-  margin-top: 9px;
 }
 
 .addr {
@@ -2207,15 +2043,30 @@ footer {
   flex-direction: column;
 }
 
-.addr-ul {
-  margin-right: 70px;
-  height: 40px;
-  text-align: left;
-  padding-left: 215px;
+.webstudio-foter {
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1px;
+}
+
+.address-wylica {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: 0.42px;
 }
 
 .footer {
-  background: var(--footer-background);
+  background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -2223,7 +2074,7 @@ footer {
 .webstudio-foter {
   line-height: normal;
   display: flex;
-  color: var(--title-color);
+  color: #FFFFFF;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -2247,7 +2098,7 @@ footer {
 .addr-nomer {
   display: flex;
   flex-direction: column;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -2257,7 +2108,7 @@ footer {
 .addr-emeil {
   display: flex;
   flex-direction: column;
-  color: var(--et-textcolor);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -2282,29 +2133,6 @@ footer {
   margin-left: 93px;
 }
 
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-
-.nav {
-  position: relative;
-}
-
-.beckdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 1;
-}
-
 .modal {
   width: 528px;
   height: 581px;
@@ -2312,13 +2140,11 @@ footer {
   background: #FFF;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
-
-.model-buton {
+.modal-buton {
   width: 18px;
   height: 18px;
 }
-
-.model-close {
+.modal-close {
   background-color: #FFF;
   width: 30px;
   height: 30px;
@@ -2330,12 +2156,29 @@ footer {
   position: absolute;
   right: 0;
 }
-
-.model-close:hover .model-buton,
-.model-close:focus .model-buton {
-  fill: #2196F3;
+.modal-butt {
+  margin-left: 165px;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: #188CE8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
 }
-
+.modal-a {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .modal-h {
   display: flex;
   margin-top: 40px;
@@ -2349,7 +2192,6 @@ footer {
   line-height: normal;
   letter-spacing: 0.6px;
 }
-
 .modal-name {
   margin-left: 41px;
   margin-top: 14px;
@@ -2417,27 +2259,30 @@ footer {
   display: inline;
 }
 
-.modal-butt {
-  margin-left: 165px;
-  margin-top: 30px;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  background: #188CE8;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border: none;
+.model-close:hover .model-buton,
+.model-close:focus .model-buton {
+  fill: #2196F3;
 }
 
-.modal-a {
-  color: #FFF;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.96px;
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.nav {
+  position: relative;
+}
+
+.beckdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */

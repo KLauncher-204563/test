@@ -7,16 +7,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
-  
-  .animate__animated {
-    /* ваші стилі для анімації */
-  }
-  
-  .animate__flipInX {
-    /* ваші стилі для анімації */
-  }
-  .effective-captionnn{
+ 
+  &-captionnn{
     width: 696px;
     color: $title-color;
   text-align: center;
@@ -30,3 +22,4 @@
   margin-bottom: 30px;
   text-transform: uppercase;
   }
+ }

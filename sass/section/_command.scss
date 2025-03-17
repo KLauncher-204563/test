@@ -2,13 +2,9 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA;
-  }
+ 
   
-  .container {
-    /* ваші стилі */
-  }
-  
-  .command-subject {
+    &-subject {
     color: $main-text;
     text-align: center;
     line-height: 42px;
@@ -18,24 +14,17 @@
     margin-bottom: 50px;
   }
   
-  .command-items {
+  &-items {
     display: flex;
     justify-content: space-around;
     gap: 30px;
   }
   
-  .command-item {
+  &-item {
     flex-basis: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
   }
-  
-  .bacraud-robotnik {
-    background-color: $color;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  .command-name {
+  &-name {
     color: $main-text;
     text-align: center;
     line-height: 19px;
@@ -44,7 +33,7 @@
     letter-spacing: 0.48px;
   }
   
-  .command-profession {
+  &-profession {
     margin-top: 10px;
     line-height: 19px;
     color: $et-textcolor;
@@ -55,13 +44,18 @@
     letter-spacing: 0.48px;
   }
   
-  .command-sos {
+  &-sos {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 28px;
   }
-  
+   }
+  .bacraud-robotnik {
+    background-color: $color;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .a-sos {
     display: flex;
     display: inline-flex;

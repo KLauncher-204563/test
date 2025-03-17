@@ -1,4 +1,8 @@
-.svg-container {
+  .svg {
+    padding-bottom: 94px;
+    padding-top: 94px;
+
+    &-container {
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -8,7 +12,7 @@
     color: #212121;
   }
   
-  .svg-hhh {
+  &-hhh {
     text-align: center;
     font-family: "Roboto";
     font-style: normal;
@@ -16,11 +20,8 @@
     letter-spacing: 1.08px;
     margin-bottom: 50px;
   }
-  
-  .svg {
-    padding-bottom: 94px;
-    padding-top: 94px;
-  }
+    }
+
   
   svg {
     transition-duration: 250ms; 
