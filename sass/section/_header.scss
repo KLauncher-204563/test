@@ -3,7 +3,7 @@
     align-items: center;
   }
   
-  .webstudio {
+  .header__logo {
     color: $logo-colot;
     font-family: "Raleway";
     font-size: 26px;
@@ -12,12 +12,12 @@
     margin-right: 93px;
   }
   
-  .nav-list {
+  .nav__list {
     display: flex;
     gap: 50px;
   }
 
-  .nav-link {
+  .nav__link {
     color: $main-text;
     font-size: 14px;
     font-weight: 500;
@@ -28,7 +28,7 @@
     transition-property: color;
   }
   
-  .contact-list {
+  .contact__list {
     display: flex;
     gap: 30px;
     color: $et-textcolor;

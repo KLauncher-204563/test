@@ -3,12 +3,12 @@
     padding-bottom: 94px;
  
   
-  &-items {
+  &__items {
     gap: 30px;
     display: flex;
   }
 
-  &-heading {
+  &__heading {
     color: $main-text;
     line-height: 16px;
     font-size: 14px;
@@ -18,7 +18,7 @@
     margin-bottom: 10px;
   }
   
-  &-subtitle {
+  &__subtitle {
     color: $et-textcolor;
     line-height: 24px;
     font-size: 14px;

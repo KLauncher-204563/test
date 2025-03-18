@@ -4,7 +4,7 @@
     background: #F5F4FA;
  
   
-    &-subject {
+    &__subject {
     color: $main-text;
     text-align: center;
     line-height: 42px;
@@ -14,17 +14,17 @@
     margin-bottom: 50px;
   }
   
-  &-items {
+  &__items {
     display: flex;
     justify-content: space-around;
     gap: 30px;
   }
   
-  &-item {
+  &__item {
     flex-basis: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
   }
-  &-name {
+  &__name {
     color: $main-text;
     text-align: center;
     line-height: 19px;
@@ -33,7 +33,7 @@
     letter-spacing: 0.48px;
   }
   
-  &-profession {
+  &__profession {
     margin-top: 10px;
     line-height: 19px;
     color: $et-textcolor;
@@ -44,19 +44,19 @@
     letter-spacing: 0.48px;
   }
   
-  &-sos {
+  &__sos {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 28px;
   }
    }
-  .bacraud-robotnik {
+  .bacraud__robotnik {
     background-color: $color;
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .a-sos {
+  .a__sos {
     display: flex;
     display: inline-flex;
     align-items: center;
@@ -69,15 +69,15 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .icon-sos {
+  .icon__sos {
     fill: #AFB1B8;
     width: 20px;
     height: 20px;
     transition: transform 0.3s, fill 0.3s;
   }
   
-  .a-sos:hover,
-  .a-sos:focus {
+  .a__sos:hover,
+  .a__sos:focus {
     display: flex;
     height: 44px;
     width: 44px;
@@ -86,7 +86,7 @@
     background-color: #2196F3;
   }
   
-  .a-sos:hover .icon-sos,
-  .a-sos:focus .icon-sos {
+  .a__sos:hover .icon-sos,
+  .a__sos:focus .icon-sos {
     fill: #FFFFFF;
   }
