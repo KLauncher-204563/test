@@ -1,9 +1,10 @@
-  .header-box {
+.header{
+ &__box {
     display: flex;
     align-items: center;
   }
   
-  .header__logo {
+  &__logo {
     color: $logo-colot;
     font-family: "Raleway";
     font-size: 26px;
@@ -11,13 +12,14 @@
     letter-spacing: 0.78px;
     margin-right: 93px;
   }
-  
-  .nav__list {
+   }
+   .nav{
+  &__list {
     display: flex;
     gap: 50px;
   }
 
-  .nav__link {
+&__link {
     color: $main-text;
     font-size: 14px;
     font-weight: 500;
@@ -26,9 +28,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
-  }
-  
-  .contact__list {
+  }}
+  .contact{
+ &__list {
     display: flex;
     gap: 30px;
     color: $et-textcolor;
@@ -38,7 +40,7 @@
     margin-left: auto;
   }
   
-  .contact-link {
+&__link {
     display: flex;
     align-items: center;
     color: $et-textcolor;
@@ -50,11 +52,19 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
   }
-  
-  .icon-item {
-    margin-right: 10px;
-    width: 16px;
-    height: 16px;
-    fill: #757575;
-    transition: fill 0.3s;
-  }
+}
+.webstudio {
+  color: $logo-colot;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  margin-right: 93px;
+}
+.web {
+  color: $akcen-tcolor;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}

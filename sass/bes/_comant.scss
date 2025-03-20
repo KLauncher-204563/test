@@ -17,25 +17,7 @@ margin-right: auto;
 margin-bottom: 30px;
 text-transform: uppercase;
 }
-.effective__button{
 
-padding: 10px 32px;
-margin-left: auto;
-margin-right: auto;
-border-radius: 4px;
-border: none;
-background: var(--akcen-tcolor);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-color:var(--title-color);
-text-align: center;
-font-size: 16px;
-font-weight: 700;
-line-height: 187.5%; 
-letter-spacing: 0.96px;  ;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-
-}
 .header__logo{
 color:var(--logo-colot);
 font-family: "Raleway";
@@ -416,9 +398,7 @@ padding-bottom: 16px;
 fill: #007bff; 
 }
 
-
-
-.item__sos{
+.sos__item{
   border-radius: 100%;
 // background-color: #757575;
 display: flex; 
@@ -432,29 +412,6 @@ justify-content: center;
    transition-property: background-color , color; 
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
-}
-
-
-.icon__sos {
-fill: #AFB1B8;
-
-width: 20px; 
-height: 20px; 
-transition: transform 0.3s, fill 0.3s; }
-
-.item__sos:hover,
-.item__sos:focus { 
-display: flex;
-height: 44px; 
-width: 44px;
-justify-content: center;
- border-radius: 50%;
-background-color: #2196F3;
-.icon__sos {
-  fill: #FFFFFF; 
-}
 }
 
 .hh-sos{ 
@@ -749,7 +706,6 @@ background: #2F303A;
 text-align: center;
 border-radius: 8px;
 }
-
 .subscription-box h2 {
 margin-right: 85px;
 color: #FFFFFF;
@@ -852,9 +808,13 @@ margin-top: 45px;
   position: absolute;
   right: 120px;
   transform: translateY(-50%);
-
+  .-sos-foter{
+    background-color: rgba(255, 255, 255, 0.10);
+  }
 }
-
+.koma{
+  margin-right: 90px;
+}
 
 
 body{
@@ -881,14 +841,7 @@ line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 }
 
-.offers-title{
-  color: var(--main-text);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px; /* 200% */
-  letter-spacing: 1.08px; 
-}
+
 :root{
   --akcen-tcolor:#2196F3;
   --logo-colot:#000;
@@ -906,14 +859,6 @@ letter-spacing: 0.48px;
   --background3: rgb(190, 192, 196);
 }
 
-.offers-subtitle{
-  color: #757575;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.48px;
-}
 
 .nav__list{
   color: var(--main-text);
@@ -1076,10 +1021,6 @@ letter-spacing: 0.78px;
           padding-bottom: 60px;
         }
 
-        .offers{
-          padding-top: 94px;
-          padding-bottom: 94px;
-        }
          .header-port{
           padding-top: 24px;
           padding-bottom: 25px;
@@ -1101,21 +1042,7 @@ flex-shrink: 0;
 margin-right: auto;
 margin-left: auto;
 }
-.offers-ul{
-display: flex;
- /* justify-content: space-evenly; */
- flex-wrap: wrap;
- gap: 30px;
-}
-.offers-title{
-margin-bottom: 4px;
-padding-top: 20px;
-padding-left: 24px;
-}
-.offers-subtitle{
-padding-bottom: 20px;
-padding-left: 24px;
-}
+
 
 .address-wylica{
 display: flex;
@@ -1162,7 +1089,7 @@ margin-bottom: 20px;
 display: flex;
 margin-left: auto;margin-right: auto;padding-left: 1px;
 }
-.offers-ul{
+.offers__ul{
   gap: 30px;
 padding-left: 0px;
   padding-right: 0px;
@@ -1180,7 +1107,7 @@ width: 100%;
 
 }
 
-.offers-item{
+.offers__item{
 flex-basis: calc((100% - 60px)  /  3 );
   outline: 1px solid var(--borter-color) ;
   position: relative;
@@ -1227,10 +1154,155 @@ transition-property: background-color, color, left ,opacity, transform;
 transform: translateY(100%);
 overflow: hidden;
 }
-.offers-item:hover{
+.offers__item:hover{
 .offers-z{
   opacity: 1;
   transform: translateY(0);
   height: 294px;
 }
+}
+
+.text {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  position: absolute;
+  background: rgba(47, 48, 58, 0.80);
+  bottom: 0;
+  z-index: 1;
+  padding: 27px;
+}
+
+
+.a__sos {
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.a__sos:hover,
+.a__sos:focus {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #2196F3;
+}
+
+.a__sos:hover .icon-sos,
+.a__sos:focus .icon-sos {
+  fill: #FFFFFF;
+}
+.icon-item {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+  transition: fill 0.3s;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+.sos__item:hover 
+.sos__icon{
+  fill: #F5F4FA;
+}
+.name{
+  width: 448px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-left: 41px;
+margin-top: 4px;
+background-color: transparent;
+}
+.comment{
+  margin-left: 41px;
+  margin-top: 4px;
+  width: 448px;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+}
+.dogovor{
+  display: flex;
+  margin-left: 41px;
+  margin-top: 20px;
+}
+.dogovor-p{
+  padding-left: 9px;
+  color: #757575;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+display: inline;
+}
+.dogovor-span{
+
+  color: #2196F3;
+  text-decoration: underline;
+  display: inline;
+}
+.name:hover,
+.name:focus,
+.comment:hover,
+.comment:focus{
+  border: 1px solid #2196F3;
+}
+.agree{
+  width: 16px;
+display: inline;
+}
+
+.model-close:hover,
+.model-close:focus{
+  .model-buton{
+  fill: #2196F3;
+}
+}
+.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.nav{
+    position: relative;  
+}
+.beckdrop{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.20);
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 1;
 }

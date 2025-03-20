@@ -6,15 +6,25 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    &__webstudio {
+      line-height: normal;
+      display: flex;
+      color: $title-color;
+      font-family: "Raleway";
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 0.78px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1px;
+    }
   }
-  footer{
-    background: $footer-background;
-    width: 1390px;
-  }
+  
   .address{
     width: 1390px;
     margin-left: 90px;
-
 
     &-wylica {
     display: flex;
@@ -26,26 +36,11 @@
     letter-spacing: 0.42px;
   }
   }
-  .webstudio-foter {
-    line-height: normal;
-    display: flex;
-    color: $title-color;
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1px;
-  }
-  
-
     .addr {
     display: flex;
     flex-direction: column;
   
-  &-nomer {
+  &__nomer {
     display: flex;
     flex-direction: column;
     color: $et-textcolor;
@@ -55,29 +50,7 @@
     letter-spacing: 0.28px;
   }
   
-  &-emeil {
-    display: flex;
-    flex-direction: column;
-    color: $et-textcolor;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    margin-bottom: 9px;
-    margin-top: 9px;
-  }
-
-  &-nomer {
-    display: flex;
-    flex-direction: column;
-    color: $et-textcolor;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-  }
-  
-  &-emeil {
+  &__emeil {
     display: flex;
     flex-direction: column;
     color: $et-textcolor;
@@ -88,123 +61,30 @@
     margin-bottom: 9px;
     margin-top: 9px;
   }
-  
-
-  
-  &-ul {
-    margin-right: 70px;
-    height: 40px;
-    text-align: left;
-    padding-left: 215px;
+  &__komaa{
+    margin-left: 93px;
   }
-  
-  &-ul {
+  &__emeil {
+    display: flex;
+    flex-direction: column;
+    color: $et-textcolor;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+  }
+    
+  &__ul {
     margin-right: 70px;
     height: 40px;
     text-align: left;
     padding-left: 215px;
   }  }
-  .koma{
-    margin-right: 90px;
-  }
-  .-sos-foter{
-    background-color: rgba(255, 255, 255, 0.10);
-  }
-  .footer {
+  footer{
     background: $footer-background;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    width: 1390px;
   }
-    .addr {
-    display: flex;
-    flex-direction: column;
-  }
-  .webstudio-foter {
-    color: $title-color;
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1px;
-  }
-  
-  .address-wylica {
-    display: flex;
-    flex-direction: column;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171.429%;
-    letter-spacing: 0.42px;
-  }
-  
- 
-  .footer {
-    background: $footer-background;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .webstudio-foter {
-    line-height: normal;
-    display: flex;
-    color: $title-color;
-    font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1px;
-  }
-  
-  .address-wylica {
-    display: flex;
-    flex-direction: column;
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 171.429%;
-    letter-spacing: 0.42px;
-  }
-  
-  .addr-nomer {
-    display: flex;
-    flex-direction: column;
-    color: $et-textcolor;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-  }
-  
-  .addr-emeil {
-    display: flex;
-    flex-direction: column;
-    color: $et-textcolor;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    margin-bottom: 9px;
-    margin-top: 9px;
-  }
-  
-  .addr {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .addr-ul {
-    margin-right: 70px;
-    height: 40px;
-    text-align: left;
-    padding-left: 215px;
-  }
-  .komaa{
-    margin-left: 93px;
-  }
+  .-sos-foter {
+    background-color: rgba(255, 255, 255, .1);}
