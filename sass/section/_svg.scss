@@ -4,8 +4,7 @@
 
     &-container {
     display: flex; 
-    justify-content: center; 
-    align-items: center; 
+@include flex-dox($justify: center, $aling: center, $wrap: wrap, $direction: row);
     gap: 30px; 
     padding: 0; 
     margin: 0;  
@@ -22,7 +21,5 @@
   }
     }
   svg {
-    transition-duration: 250ms; 
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-    transition-property: fill;
+@extend %svg__icon;
   }    

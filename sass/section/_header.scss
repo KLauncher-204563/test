@@ -25,8 +25,7 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %css__transsition;
     transition-property: color;
   }}
   .contact{
@@ -48,8 +47,7 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %css__transsition;
     transition-property: color;
   }
 }
