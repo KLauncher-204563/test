@@ -185,8 +185,6 @@ a {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
 
@@ -471,8 +469,6 @@ html {
   display: flex;
   justify-content: center;
   transition-property: background-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hh-sos {
@@ -488,12 +484,12 @@ html {
   margin-bottom: 20px;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: #2196F3;
 }
-.contact-link:hover .contact__icon,
-.contact-link:focus .contact__icon {
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
   fill: #2196F3;
 }
 
@@ -634,26 +630,47 @@ html {
   padding: 40px;
 }
 
-.modal-close {
-  height: 30px;
-  background-color: transparent;
-  border-radius: 50%;
+.modal-a {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  outline: 1px solid rgba(0, 0, 0, 0.2);
-  border: none;
-  position: absolute;
-  right: 8px;
-  top: 8px;
+  justify-content: center;
 }
 
-.modal-close:hover .modal-buttonsvg,
-.modal-close:focus .modal-buttonsvg {
-  fill: #2196F3;
+.modal-h {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
 }
 
-.modal-buttonsvg {
+.modal-name {
+  margin-left: 41px;
+  margin-top: 14px;
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.modal__buttonsvg {
   width: 18px;
   height: 18px;
 }
@@ -865,8 +882,6 @@ html {
   text-decoration-thickness: 4px; /* Толщина подчеркивания */
   text-underline-offset: 32px; /* Отступ подчеркивания */
   border-radius: 2px;
-  transition-duration: 2500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: text-decoration-color, text-decoration-thickness, text-underline-offset, -webkit-text-decoration;
   transition-property: text-decoration, text-decoration-color, text-decoration-thickness, text-underline-offset;
   transition-property: text-decoration, text-decoration-color, text-decoration-thickness, text-underline-offset, -webkit-text-decoration;
@@ -994,14 +1009,10 @@ a {
   line-height: 187.5%;
   letter-spacing: 0.96px;
   transition-property: background-color, box-shadow, border, color, background;
-  transition-duration: 2500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button {
   transition-property: background-color, box-shadow, border, color, background;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -1437,6 +1448,17 @@ img {
   opacity: 1;
 }
 
+svg {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+}
+
+.contact__link, .nav__link, .sos__item, .nav__link:hover, .button, button {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header__box {
   display: flex;
   align-items: center;
@@ -1460,8 +1482,6 @@ img {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
 
@@ -1482,8 +1502,6 @@ img {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 }
 
@@ -1709,28 +1727,20 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.svg-container {
+.svg__container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 30px;
   padding: 0;
   margin: 0;
   color: #212121;
 }
-.svg-hhh {
+.svg__hhh {
   text-align: center;
   font-family: "Roboto";
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
-}
-
-svg {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill;
 }
 
 .footer {
@@ -1835,7 +1845,7 @@ footer {
   width: 18px;
   height: 18px;
 }
-.modal-close {
+.modal__close {
   background-color: #FFF;
   width: 30px;
   height: 30px;
@@ -1843,11 +1853,18 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   right: 0;
+  background-color: transparent;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  border: none;
+  right: 8px;
+  top: 8px;
 }
-.modal-butt {
+.modal__close:hover__buttonsvg, .modal__close:focus__buttonsvg {
+  fill: #2196F3;
+}
+.modal__butt {
   margin-left: 165px;
   margin-top: 30px;
   width: 200px;
@@ -1856,41 +1873,4 @@ footer {
   background: #188CE8;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-}
-.modal-a {
-  color: #FFF;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.96px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.modal-h {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  color: #212121;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.6px;
-}
-.modal-name {
-  margin-left: 41px;
-  margin-top: 14px;
-  color: #757575;
-  font-family: "Roboto";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
 }/*# sourceMappingURL=main.css.map */
