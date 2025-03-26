@@ -44,19 +44,19 @@
     letter-spacing: 0.48px;
   }
   
-  &__sos {
+  &__partnersshowcase {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 28px;
   }
-    &__bacraud {
+    &__wrap{
     background-color: $color;
     padding-top: 30px;
     padding-bottom: 30px;
   }
    }
-.sos{
+.partnersshowcase{
   
   &__icon {
     fill: #AFB1B8;
@@ -64,7 +64,20 @@
     height: 20px;
     transition: transform 0.3s, fill 0.3s;
   }
-  
+  &__item{
+    border-radius: 100%;
+    // background-color: #757575;
+    display: flex; 
+    display: inline-flex; 
+    align-items: center; 
+    text-decoration: none; 
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center; 
+     transition-property: background-color , color; 
+     @extend %css__transsition;
+    }
 
   &__item:hover,
   &__item:focus { 
@@ -78,4 +91,4 @@ background-color: #2196F3;
   fill: #FFFFFF; 
 }
 }
-}
+}        
