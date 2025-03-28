@@ -1,3 +1,4 @@
+@import "./base/common";
 @import "./base/container";
 @import "./base/resset";
 @import "./base/variables";
@@ -6,9 +7,8 @@
 @import "./sections/advant";
 @import "./sections/work";
 @import "./sections/team";
+@import "./sections/client";
 @import "./sections/footer";
 @import "./sections/modal";
-@import "./sections/offers";
-@import "./base/comant";
 @import "./utils/mixins";
-@import "./sections/svg"
+@import "./utils/placeholders";
