@@ -49,9 +49,11 @@
 &__item:hover {
   .client__link {
     border-color: $accent-color;
+  outline: 1px solid $accent-color; 
   }
   .client__icon {
     fill: $accent-color;
+  
   }
 }
 
