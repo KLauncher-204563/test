@@ -672,7 +672,7 @@ h1, h2, h3, p {
 }
 @media screen and (min-width: 768px) {
   .footer__logo {
-    margin-left: 0px;
+    margin-left: 39px;
   }
 }
 @media screen and (min-width: 1200px) {
