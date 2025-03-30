@@ -24,6 +24,11 @@
         <a href="./index.html" class="header__logo"
           ><span class="header__color">Web</span>Studio</a
         >
+        <!-- <button type="button" class="header__menu" data-menu-open>
+          <svg class="header__burger">
+            <use href="./img/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button> -->
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -51,13 +56,37 @@
                 <span class="header__cell">+38 096 111 11 11</span></a>
           </li>
         </ul>
+        <div class="menu is-hidden" data-menu>
+          <button type="button" class="menu__close" data-menu-close>
+            <svg class="menu__icon">
+              <use href="./img/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item"><a href="./index.html" class="menu__link">Студія</a></li>
+            <li class="menu__item"><a href="./pages/portfolio.html" class="menu__link">Портфоліо</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+
+          </ul>
+          <ul class="menu__items">
+            <li class="menu__elem"><a href="tel:+380961111111" class="menu__contacttel">+38 096 111 11 11</a></li>
+            <li class="menu__elem"><a href="mailto:info@devstudio.com" class="menu__contact">info@devstudio.com</a></li>
+          </ul>
+
+        <ul class="menu__social">
+          <li class="menu__el"><a href="#" class="menu__ciberlink">Instagram</a></li>
+          <li class="menu__el"><a href="#" class="menu__ciberlink">Twitter</a></li>
+          <li class="menu__el"><a href="#" class="menu__ciberlink">Facebook</a></li>
+          <li class="menu__el"><a href="#" class="menu__ciberlink">LinkedIn</a></li>
+        </ul>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero__btn" >
+          <button type="button" class="hero__btn" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -399,7 +428,7 @@
         </div>
       </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
         <form class="modal__form">
@@ -462,7 +491,8 @@
           </button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
