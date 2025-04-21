@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Roboto";
   overflow-x: hidden;
@@ -305,17 +306,38 @@ h1, h2, h3, p {
 .hero {
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.webp);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/hero-mobile@1x.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   overflow: hidden;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/hero-mobile@2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/tablet/hero-tablet@1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/tablet/hero-tablet@2x.webp);
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/desktop/hero-desktop@1x.webp);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/desktop/hero-desktop@2x.webp);
   }
 }
 .hero__title {
@@ -641,18 +663,18 @@ h1, h2, h3, p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client {
+л .client {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  .client {
+  л .client {
     padding-top: 94px;
     padding-bottom: 94px;
   }
 }
-.client__title {
+л .client__title {
   color: #212121;
   text-align: center;
   font-size: 28px;
@@ -662,43 +684,43 @@ h1, h2, h3, p {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
-  .client__title {
+  л .client__title {
     margin-bottom: 50px;
     font-size: 36px;
     letter-spacing: 1.08px;
   }
 }
-.client__list {
+л .client__list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
-.client__item {
+л .client__item {
   flex-basis: calc((100% - 30px) / 2);
 }
 @media screen and (min-width: 480px) {
-  .client__item {
+  л .client__item {
     flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 768px) {
-  .client__item {
+  л .client__item {
     flex-basis: calc((100% - 60px) / 3);
   }
 }
 @media screen and (min-width: 1200px) {
-  .client__item {
+  л .client__item {
     flex-basis: calc((100% - 150px) / 6);
   }
 }
-.client__item:hover .client__link {
+л .client__item:hover .client__link {
   border-color: #2196f3;
   outline: 1px solid #2196f3;
 }
-.client__item:hover .client__icon {
+л .client__item:hover .client__icon {
   fill: #2196f3;
 }
-.client__link {
+л .client__link {
   border-radius: 4px;
   outline: 1px solid #afb1b8;
   height: 92px;
@@ -711,21 +733,21 @@ h1, h2, h3, p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 486px) {
-  .client__link {
+  л .client__link {
     width: 210px;
   }
 }
 @media screen and (min-width: 768px) {
-  .client__link {
+  л .client__link {
     width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .client__link {
+  л .client__link {
     width: 170px;
   }
 }
-.client__icon {
+л .client__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
