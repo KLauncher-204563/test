@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Roboto";
   overflow-x: hidden;
@@ -8,7 +7,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -663,18 +661,18 @@ h1, h2, h3, p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-л .client {
+.client {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  л .client {
+  .client {
     padding-top: 94px;
     padding-bottom: 94px;
   }
 }
-л .client__title {
+.client__title {
   color: #212121;
   text-align: center;
   font-size: 28px;
@@ -684,43 +682,43 @@ h1, h2, h3, p {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
-  л .client__title {
+  .client__title {
     margin-bottom: 50px;
     font-size: 36px;
     letter-spacing: 1.08px;
   }
 }
-л .client__list {
+.client__list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
-л .client__item {
+.client__item {
   flex-basis: calc((100% - 30px) / 2);
 }
 @media screen and (min-width: 480px) {
-  л .client__item {
+  .client__item {
     flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 768px) {
-  л .client__item {
+  .client__item {
     flex-basis: calc((100% - 60px) / 3);
   }
 }
 @media screen and (min-width: 1200px) {
-  л .client__item {
+  .client__item {
     flex-basis: calc((100% - 150px) / 6);
   }
 }
-л .client__item:hover .client__link {
+.client__item:hover .client__link {
   border-color: #2196f3;
   outline: 1px solid #2196f3;
 }
-л .client__item:hover .client__icon {
+.client__item:hover .client__icon {
   fill: #2196f3;
 }
-л .client__link {
+.client__link {
   border-radius: 4px;
   outline: 1px solid #afb1b8;
   height: 92px;
@@ -733,21 +731,21 @@ h1, h2, h3, p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 486px) {
-  л .client__link {
+  .client__link {
     width: 210px;
   }
 }
 @media screen and (min-width: 768px) {
-  л .client__link {
+  .client__link {
     width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
-  л .client__link {
+  .client__link {
     width: 170px;
   }
 }
-л .client__icon {
+.client__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
